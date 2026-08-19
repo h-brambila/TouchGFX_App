@@ -5,22 +5,17 @@
         "Name": "screen",
         "Components": [
           {
-            "Type": "Box",
-            "Name": "box1",
-            "X": 27,
-            "Y": 110,
-            "Width": 187,
-            "Height": 101,
-            "Color": {
-              "Red": 255,
-              "Green": 215
-            }
+            "Type": "Image",
+            "Name": "background",
+            "Width": 320,
+            "Height": 240,
+            "RelativeFilename": "background-cat.png"
           },
           {
             "Type": "ToggleButton",
             "Name": "toggleButton1",
-            "X": 65,
-            "Y": 135,
+            "X": 197,
+            "Y": 9,
             "Width": 110,
             "Height": 50,
             "Pressed": "__generated\\alternate_theme_images_widgets_togglebutton_medium_rounded_on_normal.png",
@@ -84,7 +79,7 @@
     "LandscapeSkinY": 0,
     "PortraitSkinX": 0,
     "PortraitSkinY": 0,
-    "DisplayOrientation": "Portrait",
+    "DisplayOrientation": "Landscape",
     "Family": "STM32F4",
     "SubFamily": "STM32F429/439",
     "Toolchain": "STM32CubeIDE",

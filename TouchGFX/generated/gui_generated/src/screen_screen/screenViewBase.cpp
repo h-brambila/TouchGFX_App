@@ -7,15 +7,15 @@
 
 screenViewBase::screenViewBase()
 {
-    __background.setPosition(0, 0, 240, 320);
+    __background.setPosition(0, 0, 320, 240);
     __background.setColor(touchgfx::Color::getColorFromRGB(0, 0, 0));
     add(__background);
 
-    box1.setPosition(27, 110, 187, 101);
-    box1.setColor(touchgfx::Color::getColorFromRGB(255, 215, 0));
-    add(box1);
+    background.setXY(0, 0);
+    background.setBitmap(touchgfx::Bitmap(BITMAP_BACKGROUND_CAT_ID));
+    add(background);
 
-    toggleButton1.setXY(65, 135);
+    toggleButton1.setXY(197, 9);
     toggleButton1.setBitmaps(touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_OFF_LIGHT_ID), touchgfx::Bitmap(BITMAP_ALTERNATE_THEME_IMAGES_WIDGETS_TOGGLEBUTTON_MEDIUM_ROUNDED_ON_NORMAL_ID));
     add(toggleButton1);
 }
