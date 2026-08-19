@@ -8,7 +8,7 @@
 #include <mvp/View.hpp>
 #include <gui/screen_screen/screenPresenter.hpp>
 #include <touchgfx/widgets/Box.hpp>
-#include <touchgfx/widgets/Image.hpp>
+#include <touchgfx/widgets/ToggleButton.hpp>
 
 class screenViewBase : public touchgfx::View<screenPresenter>
 {
@@ -26,7 +26,8 @@ protected:
      * Member Declarations
      */
     touchgfx::Box __background;
-    touchgfx::Image background;
+    touchgfx::Box box1;
+    touchgfx::ToggleButton toggleButton1;
 
 private:
 
