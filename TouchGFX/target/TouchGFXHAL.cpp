@@ -21,6 +21,10 @@
 /* USER CODE END Header */
 
 #include <TouchGFXHAL.hpp>
+extern "C" {
+#include "stm32f429i_discovery_lcd.h"
+#include "stm32f429i_discovery_ts.h"
+}
 
 /* USER CODE BEGIN TouchGFXHAL.cpp */
 
@@ -35,6 +39,11 @@ void TouchGFXHAL::initialize()
     // Please note, HAL::initialize() must be called to initialize the framework.
 
     TouchGFXGeneratedHAL::initialize();
+
+    BSP_LCD_Init();
+	BSP_LCD_LayerDefaultInit(0, LCD_FRAME_BUFFER);
+	BSP_LCD_SelectLayer(0);
+	BSP_LCD_DisplayOn();
 }
 
 /**
