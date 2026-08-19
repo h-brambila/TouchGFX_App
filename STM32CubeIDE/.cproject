@@ -51,6 +51,13 @@
 									<listOptionValue builtIn="false" value="../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/touchgfx/framework/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/fonts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/gui_generated/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/images/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/texts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/gui/include"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.157895115" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -71,8 +78,18 @@
 									<listOptionValue builtIn="false" value="../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/touchgfx/framework/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/fonts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/gui_generated/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/images/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/texts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/gui/include"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1519680615" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags.0851105207" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags" valueType="stringList">
+									<listOptionValue builtIn="false" value="-femit-class-debug-always"/>
+								</option>
 							</tool>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1150623631" name="MCU/MPU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker"/>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.1504994256" name="MCU/MPU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
@@ -81,6 +98,12 @@
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.0851105207" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries.9244260469" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries" valueType="libs">
+									<listOptionValue builtIn="false" value=":libtouchgfx-float-abi-hard.a"/>
+								</option>
 							</tool>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.444241826" name="MCU/MPU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.1489582215" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
@@ -142,6 +165,13 @@
 									<listOptionValue builtIn="false" value="../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/touchgfx/framework/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/fonts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/gui_generated/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/images/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/texts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/gui/include"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.96383972" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -161,8 +191,18 @@
 									<listOptionValue builtIn="false" value="../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
 									<listOptionValue builtIn="false" value="../../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/touchgfx/framework/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/fonts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/gui_generated/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/images/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/texts/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/generated/videos/include"/>
+									<listOptionValue builtIn="false" value="../../TouchGFX/gui/include"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1203666961" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags.9244260469" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.option.otherflags" valueType="stringList">
+									<listOptionValue builtIn="false" value="-femit-class-debug-always"/>
+								</option>
 							</tool>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker.1069718717" name="MCU/MPU GCC Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.linker"/>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.272270862" name="MCU/MPU G++ Linker" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker">
@@ -171,6 +211,12 @@
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
 								</inputType>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories.3935517454" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.directories" valueType="libPaths">
+									<listOptionValue builtIn="false" value="../../Middlewares/ST/touchgfx/lib/core/cortex_m4f/gcc"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="true" id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries.7091226026" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.linker.option.libraries" valueType="libs">
+									<listOptionValue builtIn="false" value=":libtouchgfx-float-abi-hard.a"/>
+								</option>
 							</tool>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver.1879441349" name="MCU/MPU GCC Archiver" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.archiver"/>
 							<tool id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size.1704710000" name="MCU Size" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.size"/>
