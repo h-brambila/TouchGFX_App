@@ -48,10 +48,10 @@ void MX_LTDC_Init(void)
   hltdc.Init.VerticalSync = 1;
   hltdc.Init.AccumulatedHBP = 29;
   hltdc.Init.AccumulatedVBP = 3;
-  hltdc.Init.AccumulatedActiveW = 269;
-  hltdc.Init.AccumulatedActiveH = 323;
-  hltdc.Init.TotalWidth = 279;
-  hltdc.Init.TotalHeigh = 327;
+  hltdc.Init.AccumulatedActiveW = 349;
+  hltdc.Init.AccumulatedActiveH = 243;
+  hltdc.Init.TotalWidth = 359;
+  hltdc.Init.TotalHeigh = 247;
   hltdc.Init.Backcolor.Blue = 0;
   hltdc.Init.Backcolor.Green = 0;
   hltdc.Init.Backcolor.Red = 0;
@@ -60,17 +60,17 @@ void MX_LTDC_Init(void)
     Error_Handler();
   }
   pLayerCfg.WindowX0 = 0;
-  pLayerCfg.WindowX1 = 240;
+  pLayerCfg.WindowX1 = 320;
   pLayerCfg.WindowY0 = 0;
-  pLayerCfg.WindowY1 = 320;
+  pLayerCfg.WindowY1 = 240;
   pLayerCfg.PixelFormat = LTDC_PIXEL_FORMAT_RGB565;
   pLayerCfg.Alpha = 255;
   pLayerCfg.Alpha0 = 0;
   pLayerCfg.BlendingFactor1 = LTDC_BLENDING_FACTOR1_PAxCA;
   pLayerCfg.BlendingFactor2 = LTDC_BLENDING_FACTOR2_PAxCA;
   pLayerCfg.FBStartAdress = 0xD0000000;
-  pLayerCfg.ImageWidth = 240;
-  pLayerCfg.ImageHeight = 320;
+  pLayerCfg.ImageWidth = 320;
+  pLayerCfg.ImageHeight = 240;
   pLayerCfg.Backcolor.Blue = 0;
   pLayerCfg.Backcolor.Green = 0;
   pLayerCfg.Backcolor.Red = 0;
